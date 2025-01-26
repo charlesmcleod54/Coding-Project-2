@@ -25,11 +25,11 @@ employee.position = "Marketing Manager";
 console.log(employee);
 // Task 4
 let customers = [
-    { name: "Josh Allen", email: "joshallen@gmail.com", purchaseAmmount: 150 },
-    {name: "Chad Johnson", email: "johnsonc@outlook.com", purchaseAmmount: 200 },
-    {name: "Jared Morris", email: "jmorris@me.com", purchaseAmmount: 120 }
+    { name: "Josh Allen", email: "joshallen@gmail.com", purchaseAmount: 150 },
+    {name: "Chad Johnson", email: "johnsonc@outlook.com", purchaseAmount: 200 },
+    {name: "Jared Morris", email: "jmorris@me.com", purchaseAmount: 120 }
 ];
-customers.push({ name: "Dylan Douglas", email: "dyland25@gmail.com", purchaseAmmount: 300 });
+customers.push({ name: "Dylan Douglas", email: "dyland25@gmail.com", purchaseAmount: 300 });
 console.log(customers);
 // Task 5
 let order = {
