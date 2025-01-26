@@ -23,3 +23,11 @@ let employee = {
 employee.department = "Marketing";
 employee.position = "Marketing Manager";
 console.log(employee);
+// Task 4
+let customers = [
+    { name: "Josh Allen", email: "joshallen@gmail.com", purchaseAmmount: 150 },
+    {name: "Chad Johnson", email: "johnsonc@outlook.com", purchaseAmmount: 200 },
+    {name: "Jared Morris", email: "jmorris@me.com", purchaseAmmount: 120 }
+];
+customers.push({ name: "Dylan Douglas", email: "dyland25@gmail.com", purchaseAmmount: 300 });
+console.log(customers);
