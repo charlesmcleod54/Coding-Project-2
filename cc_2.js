@@ -31,3 +31,17 @@ let customers = [
 ];
 customers.push({ name: "Dylan Douglas", email: "dyland25@gmail.com", purchaseAmmount: 300 });
 console.log(customers);
+// Task 5
+let order = {
+    orderID: 53648,
+    customerName: "Charles McLeod",
+    amount: 300,
+    calculateTax: function(){
+        return this.amount * 0.10;
+    }
+};
+console.log("Order Details:");
+console.log("Order ID: " + order.orderID);
+console.log("Customer Name: " + order.customerName);
+console.log("Amount: $" + order.amount.toFixed(2));
+console.log("Tax Amount: $" + order.calculateTax().toFixed(2));
