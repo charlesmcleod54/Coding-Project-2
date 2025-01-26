@@ -13,3 +13,13 @@ for (let score of scores) {
 let average = total / scores.length;
 console.log("Updates Scores: " + scores);
 console.log("Average Score: " + average.toFixed(2));
+// Task 3
+let employee = {
+    name: "John Smith",
+    age: 28,
+    department: "Sales",
+    isActive: true
+};
+employee.department = "Marketing";
+employee.position = "Marketing Manager";
+console.log(employee);
